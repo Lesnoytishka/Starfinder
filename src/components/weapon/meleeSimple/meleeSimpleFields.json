@@ -1,0 +1,15 @@
+{
+  "id": "Long",
+  "handCount": "Integer",
+  "weaponType": "WeaponType",
+  "lvl": "Integer",
+  "titleRu": "String",
+  "titleEn": "String",
+  "source": "Source",
+  "price": "BigDecimal",
+  "damage": "String",
+  "damageType": "WeaponDamageType",
+  "critical": "WeaponCritical",
+  "weight": "String",
+  "special": "String"
+}

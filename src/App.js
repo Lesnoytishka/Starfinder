@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import WeaponSimpleMelee from "./components/weapon/meleeSimple/WeaponSimpleMelee";
+import HexBackground from "./components/coolBackground/HexBackground";
+import CircleToggle from "./components/circleToggle/CircleToggle";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HexBackground />
+      <WeaponSimpleMelee />
     </div>
   );
 }
